@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="7" time="29.088" timestamp="2025-04-11T16:34:10.728911+05:30" hostname="QSP"><testcase classname="test_launch" name="test_dws" time="6.210" /><testcase classname="test_launch" name="test_rcb" time="7.196" /><testcase classname="test_launch" name="test_csk" time="6.288" /><testcase classname="test_launch" name="test_mi" time="9.088" /><testcase classname="test_start" name="test_m1" time="0.002"><failure message="assert 2 == 3">def test_m1():
+        print("iam m1")
+&gt;       assert 2==3
+E       assert 2 == 3
+
+test_start.py:3: AssertionError</failure></testcase><testcase classname="test_start" name="test_m2" time="0.001"><failure message="assert 7 == 8">def test_m2():
+        print("iam m2")
+&gt;       assert 7==8
+E       assert 7 == 8
+
+test_start.py:6: AssertionError</failure></testcase><testcase classname="test_start" name="test_m3" time="0.001"><failure message="assert 10 == 1">def test_m3():
+        print("iam m3")
+&gt;       assert  10==1
+E       assert 10 == 1
+
+test_start.py:9: AssertionError</failure></testcase></testsuite></testsuites>
